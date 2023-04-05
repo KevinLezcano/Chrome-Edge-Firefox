@@ -1,0 +1,38 @@
+.Container .Cards {
+    display: inline-block;
+    border: solid black;
+    padding: 20px;
+    margin: 30px;
+    width: 300px;
+    background-color: rgb(137, 223, 245);
+    color: black;
+    font-size: 40px;
+    position: relative;
+    transition: all .8s ease-in-out;
+    cursor: pointer;
+    
+    border-radius: 30px;
+}
+.Cards:hover{
+    
+    transform: scale(1.1);
+    color: black;
+}
+h1{
+    font-size: 100px;
+    position: relative;
+}
+img {
+    width: 200px;
+    display: inline-block;
+}
+.Container{
+    text-align: center;
+    padding: 10px;
+    padding-top: 10px;
+    width: 100vw;
+    height: 100vh;
+    margin: 10px;
+    background: rgb(37,232,251);
+    background: radial-gradient(circle, rgba(37,232,251,1) 0%, rgba(66,254,132,1) 100%);
+}
